@@ -1,0 +1,53 @@
+.content {
+    height: fit-content;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+}
+
+.header {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+
+.bio-section {
+    display: flex;
+    width: 100%;
+    gap: 10px; 
+    margin: 10px 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid green;
+    width: 50%;
+    padding: 10px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(238, 90, 11);
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: lightblue;
+}
