@@ -1,0 +1,75 @@
+:root {  
+  --font-main: system-ui, -apple-system, sans-serif;
+  --text-sm: 0.875rem;    
+  --text-base: 1rem;      
+  --text-lg: 1.5rem;      
+   
+  --weight-regular: 400;
+  --weight-bold: 700;
+  --leading-normal: 1.6;
+   
+  --color-bg: #f8fafc;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-accent: #2563eb;
+  --color-border: #e2e8f0;
+   
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+}
+ 
+body {
+  font-family: var(--font-main);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  max-width: 650px;
+  margin: var(--space-lg) auto;
+  padding: 0 var(--space-md);
+}
+
+ 
+.content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--space-lg);
+  display: flex;
+  gap: var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--space-sm);
+}
+
+ 
+h2 {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-bold);
+  margin-bottom: var(--space-sm);
+}
+
+ 
+p {
+  margin-bottom: var(--space-md);
+}
+
+ol {
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+ 
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.footer {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-md);
+}
