@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background-color: #f4f1ea;
+  color: #1c1917;
+  padding: 1.5rem;
+}
+
+.newspaper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 1.5rem;
+}
+
+.masthead {
+  grid-column: 1 / -1; 
+  text-align: center;
+  border-bottom: 2px solid #1c1917;
+  padding-bottom: 0.75rem;
+}
+
+.col {
+  border-top: 1px solid #ddd;
+  padding-top: 0.75rem;
+}
+
+.col h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
