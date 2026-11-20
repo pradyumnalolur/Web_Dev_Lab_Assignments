@@ -37,7 +37,13 @@ header {
     border: 2px solid red;
     padding: 10px;
 }
-
+.link{
+    text-decoration: none;
+    color:green;
+}
+a:hover{
+    color: white;
+}
 footer {
     display: flex;
     align-items: center;
